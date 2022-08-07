@@ -18,7 +18,7 @@ export const health = {
 	color: '#DDDDDD',
 	buff: {
 		mode: '+',
-		amount: 350
+		amount: 350000
 	},
 	name: 'Health Points'
 }
@@ -29,7 +29,7 @@ export const eneCap = {
 	color: '#00AAEE',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 10000
 	},
 	name: 'Energy Capacity'
 }
@@ -40,7 +40,7 @@ export const eneReg = {
 	color: '#00BFBF',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 2000
 	},
 	name: 'Energy Regeneration'
 }
@@ -51,7 +51,7 @@ export const heaCap = {
 	color: '#FF5500',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 10000
 	},
 	name: 'Heat Capacity'
 }
@@ -62,7 +62,7 @@ export const heaCol = {
 	color: '#DDDDDD',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 2000
 	},
 	name: 'Heat Cooling'
 }
@@ -73,7 +73,7 @@ export const phyRes = {
 	color: '#FFBB33',
 	buff: {
 		mode: '*',
-		amount: 1.4
+		amount: 500
 	},
 	name: 'Physical Resistance'
 }
@@ -84,7 +84,7 @@ export const expRes = {
 	color: '#FF6622',
 	buff: {
 		mode: '*',
-		amount: 1.4
+		amount: 500
 	},
 	name: 'Explosive Resistance'
 }
@@ -95,7 +95,7 @@ export const eleRes = {
 	color: '#33BBFF',
 	buff: {
 		mode: '*',
-		amount: 1.4
+		amount: 500
 	},
 	name: 'Electric Resistance'
 }
@@ -106,7 +106,7 @@ export const phyDmg = {
 	color: '#FFBB00',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 1000
 	},
 	name: 'Physical Damage'
 }
@@ -125,7 +125,7 @@ export const expDmg = {
 	color: '#FF5500',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 1000
 	},
 	name: 'Explosive Damage'
 }
@@ -136,7 +136,7 @@ export const heaDmg = {
 	color: '#FF5500',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 9293
 	},
 	name: 'Heat Damage'
 }
@@ -171,7 +171,7 @@ export const eleDmg = {
 	color: '#00BBFF',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 102
 	},
 	name: 'Electric Damage'
 }
@@ -182,7 +182,7 @@ export const eneDmg = {
 	color: '#00BBFF',
 	buff: {
 		mode: '*',
-		amount: 1.2
+		amount: 1000
 	},
 	name: 'Energy Damage'
 }
@@ -289,7 +289,7 @@ export const backfire = {
 	color: '#AA0000',
 	buff: {
 		mode: '*',
-		amount: 0.8
+		amount: 1
 	},
 	name: 'Backfire'
 }
